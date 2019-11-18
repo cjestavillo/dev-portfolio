@@ -1,0 +1,1180 @@
+<!--
+Author:Ciara Jhenica Estavillo
+Author URL: https://cjestavillo.github.io
+Theme Credits: http://w3layouts.com/ 
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ciara Jhenica Estavillo Portfolio</title>
+        
+        <!--fonts-->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <!--//fonts-->
+
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+        <!-- for-mobile-apps -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="Ciara Jhenica Estavillo, web developer, Ciara Estavillo, cjestavillo" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!-- //for-mobile-apps -->
+        
+        <!-- js -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <!-- js -->
+        
+        <!-- start-smooth-scrolling -->
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $(".scroll").click(function(event){		
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                });
+            });
+        </script>
+        <!-- start-smooth-scrolling -->
+    </head>
+
+    <body>
+        <!-- START: BANNER -->
+        <div class="banner" id="home">
+            <div class="container"> 
+                <div class="top-header row">
+                    <script src="js/classie.js"></script>
+                    <!--top-nav---->
+                    <div class="logo">
+                        <!-- <a href="index.html"><img src="images/logo.png" alt=""/></a> -->
+                    </div>
+
+                    <div class="top-nav">
+                        <div class="nav-icon">
+                            <a href="#" class="right_bt" id="activator">
+                                <span> </span>
+                            </a>
+                        </div>
+
+                        <div class="box" id="box">
+                            <div class="box_content">
+                                <div class="box_content_center">
+                                    <div class="form_content">
+                                        <div class="menu_box_list">
+                                            <ul>
+                                                <li>
+                                                    <a 
+                                                        class="scroll" 
+                                                        href="#home"
+                                                    >
+                                                        <span>Home</span>
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a 
+                                                        class="scroll" 
+                                                        href="#about"
+                                                    >
+                                                        <span>About</span>
+                                                    </a>
+                                                </li>
+
+                                                <li>
+                                                    <a 
+                                                        class="scroll" 
+                                                        href="#services"
+                                                    >
+                                                        <span>Services</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a 
+                                                        class="scroll" 
+                                                        href="#portfolio"
+                                                    >
+                                                        <span>Portfolio</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a 
+                                                        class="scroll" 
+                                                        href="#contact"
+                                                    >
+                                                        <span>Contact</span>
+                                                    </a>
+                                                </li>
+                                                
+                                                <div class="clearfix"> </div>
+                                            </ul>
+                                        </div>
+
+                                        <a class="boxclose" id="boxclose"> 
+                                            <span> </span>
+                                        </a>
+                                    </div>
+                                </div> 	
+                            </div> 
+                        </div>       	  
+                    </div>
+                    <!---start-click-drop-down-menu----->
+                    <!----start-dropdown--->
+                    <script type="text/javascript">
+                        var $ = jQuery.noConflict();
+                            $(function() {
+                                $('#activator').click(function(){
+                                    $('#box').animate({'top':'0px'},900);
+                                });
+                                $('#boxclose').click(function(){
+                                $('#box').animate({'top':'-1000px'},900);
+                                });
+                            });
+                            $(document).ready(function(){
+                            //Hide (Collapse) the toggle containers on load
+                            $(".toggle_container").hide(); 
+                            //Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+                            $(".trigger").click(function(){
+                                $(this).toggleClass("active").next().slideToggle("slow");
+                                    return false; //Prevent the browser jump to the link anchor
+                            });
+                                                
+                        });
+                    </script>
+                    <!---//End-click-drop-down-menu----->
+                    <div class="clearfix"> </div>
+                </div>
+
+                <div class="banner-info">
+                    <div class="banner-left">
+                        <img src="images/cj-round.png" alt="CJ Picture"/>
+                    </div>
+
+                    <div class="banner-right">
+                        <h1>I’M CIARA JHENICA</h1>
+                        <h1>ESTAVILLO, CpE</h1>
+                        
+                        <div class="border"></div>
+
+                        <h2>FULLSTACK DEVELOPER | COMPUTER ENGINEER</h2>
+                        <h4>
+                            I HELP BUSINESS AND FINANCIAL COACHES TO 
+                            GENERATE CUSTOMERS AND PROSPECTS BY MAKING 
+                            WEBSITES
+                        </h4>
+                        
+                        <a 
+                            href="./files/Ciara-Jhenica-Estavillo-Resume.pdf"
+                            target="_blank"
+                        >
+                            DOWNLOAD MY RESUME
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!-- END: BANNER -->
+
+        <!--START: ABOUT-->
+        <div class="about text-center" id="about">
+            <div class="container">
+                <h3>ABOUT ME</h3>
+                <div class="strip text-center">
+                    <img src="images/about.png" alt=" "/>
+                </div>
+                
+                <!-- <p>
+                    I am always a fan of business and financial coaches 
+                    because they always help me in making right 
+                    decisions in my life, which leads me close to being  
+                    a successful one. Thus, to give back to the lessons 
+                    that I've learned from them, I want to use my 
+                    skills in increasing their revenue and in 
+                    increasing the numbers of their prospective 
+                    clients and customers by creating 
+                    websites for them.
+                    <br /><br />
+                    Thus, if you are looking for someone who wants to 
+                    help you in building an amazing website, let's 
+                    have a talk! I'd love to hear from you.
+                    <br /><br />
+                    <a href="#services">
+                        See how I can help you in your business.
+                    </a>
+                </p> -->
+                <p>
+                    If you are a financial or business coach who are 
+                    looking for:
+                <!-- </p> -->
+                    <ul class="help-client-section">
+                        <li>
+                            help in increasing your prospects through an 
+                            automated system
+                        </li>
+                        <li>
+                            help in increasing more sales
+                        </li>
+                        <li>
+                            help in creating your sales pages
+                        </li>
+                    </ul>
+                <!-- <p> -->
+                    <br/><br/>
+                    I have a solution for you!
+                    <br/><br/>
+                    I love to help business and financial coaches like
+                    you in building a conversion-focused design for 
+                    your sales pages.
+                    <br/><br/>
+                    If interested, let's connect and let's have a 
+                    talk! I'd love to hear from you.
+                    <br/><br/>
+                    Email me at:
+                    <br/>
+                    estavillocj43@gmail.com
+                    <br/>
+                    or
+                    <br/>
+                    Contact me at:
+                    <br/>
+                    Mobile: +63 965 4481891
+                    <br/>
+                    Skype: estavillocj43
+                    <br/>
+                    WhatsApp: +63 965 4481891
+                    <br/>
+                    LinkedIn: cjestavillo 
+                </p>
+
+                <ul>
+                    <li>
+                        <a 
+                            class="fb" 
+                            href="https://facebook.com/cestavillo43"
+                            target="_blank"
+                        ></a>
+                    </li>
+
+                    <li>
+                        <a 
+                            class="in"
+                            href="https://www.linkedin.com/in/cjestavillo/"
+                            target="_blank"
+                        ></a>
+                    </li>
+                    
+                    <li>
+                        <a 
+                            class="git"
+                            href="http://github.com/cjestavillo"
+                            target="_blank"
+                        ></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--END: ABOUT-->
+        <div class="about-back"></div>
+
+        <!--START: SKILLS-->
+        <div class="my-skills text-center" id="my-skills">
+            <div class="container">
+                <h3>MY SKILLS</h3>
+                <div class="strip text-center">
+                    <img src="images/skill.png" alt=" "/>
+                </div>
+                
+                <div class="skill-grids">
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-1"></div>
+                        <p>Web Development</p>
+                    </div>
+                        
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-2"></div>
+                        <p>HTML 5 / CSS 3</p>
+                    </div>
+
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-3"></div>
+                        <p>Javascript</p>
+                    </div>
+
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-4"></div>
+                        <p>PHP</p>
+                    </div>
+
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-5"></div>
+                        <p>React.JS</p>
+                    </div>
+
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-6"></div>
+                        <p>React Native</p>
+                    </div>
+
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-7"></div>
+                        <p>Node.JS</p>
+                    </div>
+
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-8"></div>
+                        <p>jQuery</p>
+                    </div>
+
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-9"></div>
+                        <p>AJAX</p>
+                    </div>
+
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-10"></div>
+                        <p>MySQL</p>
+                    </div>
+
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-11"></div>
+                        <p>Python</p>
+                    </div>
+
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-12"></div>
+                        <p>Laravel</p>
+                    </div>
+
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-13"></div>
+                        <p>Wordpress</p>
+                    </div>
+
+                    <div class="col-md-2 skills-grid text-center">
+                        <div class="circle" id="circles-14"></div>
+                        <p>Photoshop</p>
+                    </div>
+
+                    <div class="clearfix"> </div>
+
+                    <script type="text/javascript" src="js/circles.js"></script>
+                    <script>
+                        var colors = [
+                            ['#6ed4c0', '#ffffff'], 
+                            ['#6ed4c0', '#ffffff'], 
+                            ['#6ed4c0', '#ffffff'], 
+                            ['#6ed4c0', '#ffffff'], 
+                            ['#6ed4c0', '#ffffff'], 
+                            ['#6ed4c0', '#ffffff'],
+                            ['#6ed4c0', '#ffffff'], 
+                            ['#6ed4c0', '#ffffff'], 
+                            ['#6ed4c0', '#ffffff'], 
+                            ['#6ed4c0', '#ffffff'], 
+                            ['#6ed4c0', '#ffffff'], 
+                            ['#6ed4c0', '#ffffff'],
+                            ['#6ed4c0', '#ffffff'],
+                            ['#6ed4c0', '#ffffff'],
+                            ['#6ed4c0', '#ffffff']
+                        ];
+
+                        var skillsPercentage = [
+                            NaN, // not included
+                            90, // Web Development
+                            90, // HTML 5 / CSS 3
+                            80, // JS
+                            80, // PHP
+                            70, // React.JS
+                            75, // React Native
+                            60, // Node.JS
+                            85, // jQuery
+                            90, // AJAX
+                            85, // MySQL
+                            50, // Python
+                            80, // Cradle PHP
+                            40, // Laravel
+                            30, // Wordpress
+                            70  // Photoshop
+                        ];
+
+                        for (var i = 1; i <= skillsPercentage.length; i++) {
+                            var child = document.getElementById('circles-' + i);
+                            var percentage = skillsPercentage[i];
+
+                            if (child && child.id) {
+                                Circles.create({
+                                    id:         child.id,
+                                    percentage: percentage,
+                                    radius:     80,
+                                    width:      10,
+                                    number:   	percentage / 1,
+                                    text:       '%',
+                                    colors:     colors[i - 1]
+                                });
+                            }
+                        }
+                            
+                    </script>
+                </div>
+            </div>	
+        </div>
+        <!--END: SKILLS-->
+        <div class="my-skill-back"></div>
+    
+         <!--END: EDUCATION-->
+        <div class="education text-center" id="education">
+            <div class="container">
+                <div class="edu-info">
+                    <h3>EDUCATION</h3>
+                </div>
+
+                <div class="strip text-center">
+                    <img src="images/edu.png" alt=" "/>
+                </div>
+                
+                <div class="edu-grids">
+                    <div class="col-md-6 edu-grid">
+                        <p>2008 - 2012</p><span>Graduated</span>
+                        <img src="images/arrow.png" alt=""/>
+                        <div class="edu-border">
+                            <div class="edu-grid-master">
+                                <h3>HIGH SCHOOL</h3>
+                                <h4>Kalayaan National High School</h4>
+                            </div>
+
+                            <div class="edu-grid-info">
+                                <h5>
+                                    During my stay here, I had 
+                                    experienced leading an 
+                                    organization, and becomes part of 
+                                    various school clubs, such as the 
+                                    school's English School Paper 
+                                    Publication. I also had 
+                                    participated in inter-school 
+                                    competitions and I am a consistent 
+                                    honor student.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 edu-grid">
+                        <p>2012 - 2017</p><span>Graduated</span>
+                        <img src="images/arrow.png" alt=""/>
+                        <div class="edu-border">
+                            <div class="edu-grid-master">
+                                <h3>BACHELORS OF SCIENCE IN COMPUTER ENGINEERING</h3>
+                                <h4>National University - Manila</h4>
+                            </div>
+                            
+                            <div class="edu-grid-info">
+                                <h5>
+                                    This is where I got some of my 
+                                    technical skills. During college, 
+                                    we studied about robotics, 
+                                    computer, electrical and 
+                                    electronics backgrounds, server 
+                                    management, computer networking, 
+                                    and software development. I also 
+                                    did projects mainly in robotics 
+                                    and software development. In 
+                                    addition, I had experienced in 
+                                    setting up own servers and 
+                                    switches and routers, and in 
+                                    designing computer network 
+                                    architectures.
+                                <h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            
+        </div>
+        <!--END: EDUCATION-->
+        <div class="strip-border"><p></p></div>
+
+        <!--START: WORK-->
+        <div class="work-experience text-center" id="work-experience">
+            <div class="container">
+                <div class="work-info">
+                    <h3>WORK EXPERIENCE</h3>
+                </div>
+
+                <div class="strip text-center">
+                    <img src="images/work.png" alt=" "/>
+                </div>
+                
+                <div class="work-grids">
+                    <div class="col-md-4 w-grid">
+                        <div class="work-grid">
+                            <h3>Apr 2016 - May 2016</h3>
+                            <div class="work-grid-info">
+                                <h4>SPi Global</h4>
+                                <h5>Intern - Technical Support Officer</h5>
+                                <p>
+                                    During my internship, I had 
+                                    experienced providing Level 1 
+                                    technical support, installing and 
+                                    configuring equipment, diagnosing 
+                                    hardware and software faults, 
+                                    solving technical and applications 
+                                    problems, and monitoring the 
+                                    performance of systems, services 
+                                    and the network.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 w-grid">
+                        <div class="work-grid">
+                            <h3>Jul 2017 - Dec 2017</h3>
+                            <div class="work-grid-info">
+                                <h4>Accenture</h4>
+                                <h5>Associate Software Engineer</h5>
+                                <p>
+                                    During my first job, I had 
+                                    experienced providing Level 2 
+                                    Support, which includes solving of 
+                                    technical and applications 
+                                    problems, and administering 
+                                    databases by using Microsoft 
+                                    Server SQL and Oracle SQL. I was 
+                                    also trained in Oracle 
+                                    technologies such as Oracle PL/SQL, 
+                                    Oracle Forms and Reports, and 
+                                    basic UNIX and Java programming.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 w-grid">
+                        <div class="work-grid">
+                            <h3>Jan 2018 - Now</h3>
+                            <div class="work-grid-info">
+                                <h4>Sterling Technologies</h4>
+                                <h5>Web and Mobile Developer</h5>
+                                <p>
+                                    In this company, I am responsible 
+                                    for developing various mobile 
+                                    and web applications which uses 
+                                    programming languages such as HTML, 
+                                    CSS (and SCSS), JavaScript (jQuery, 
+                                    Node JS, React JS, and React 
+                                    Native), PHP (Cradle and 
+                                    Wordpress), SQL and AWS S3 and 
+                                    Cognito. Also, I did some 
+                                    development contributions in 
+                                    Cradle V2 PHP Framework, Jobayan, 
+                                    Monico, and Sterling Tech website.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!--END: WORK-->
+        <div class="services-back"></div>
+
+        <!--START: SERVICES-->
+        <div class="services text-center" id="services">
+            <div class="container">
+                <div class="ser-info">
+                    <h3>SERVICES</h3>
+                </div>
+
+                <div class="strip text-center">
+                    <img src="images/ser.png" alt=" "/>
+                </div>
+                
+                <div class="ser-grids">
+                    <div class="col-md-4 ser-grid">
+                        <div class="ser-imagea"></div>
+                        <h3>Web Design</h3>
+                        <p>
+                            I can help you translate a design from  
+                            pictures into a website. Also, I can provide 
+                            web designs which you can use in your 
+                            website.
+                        </p>
+                    </div>
+
+                    <!-- <div class="col-md-3 ser-grid">
+                        <div class="ser-imageb"></div>
+                        <h3>Chatbots</h3>
+                        <p>
+                            I'm gonna shoot you in the head
+                        then and there. Then I'm gonna shoot 
+                        that bitch in the kneecaps.
+                        </p>
+                    </div> -->
+
+                    <div class="col-md-4 ser-grid">
+                        <div class="ser-imagec"></div>
+                        <h3>Content Writer</h3>
+                        <p>
+                            I love to write so I can provide some 
+                            useful contents to your website.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 ser-grid">
+                        <div class="ser-imaged"></div>
+                        <h3>Web Development</h3>
+                        <p>
+                            I can develop web and mobile 
+                            apps from layouting its UI to doing its 
+                            backend.
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!--END: SERVICES-->
+
+        <!--START: PORTFOLIO-->
+        <div class="gallery-section text-center" id="portfolio">
+            <div class="container">
+                <h3>PORTFOLIO</h3>
+                <div class="strip text-center">
+                    <img src="images/port.png" alt=" "/>
+                </div>
+                <p>
+                    I developed various websites and mobile applications, 
+                    from translating design into an application, to 
+                    associating its processes to database and with 
+                    the use of some third-party services, and deploying 
+                    it to the production. These products help our clients 
+                    to gain more prospects and customers, in giving 
+                    technical solutions to the society, and also in 
+                    saving more time in doing their business process.
+                    <br/>
+                    Some of my works are as follows:
+                </p>
+
+                <div class="gallery-grids">
+                    <div class="top-gallery">
+                        <div class="col-md-3 gallery-grid gallery1">
+                            <a 
+                                href="http://influuxstudios.com/" 
+                                target="_blank"
+                            >
+                                <img 
+                                    alt="/"
+                                    class="img-responsive" 
+                                    src="images/p1.jpg" 
+                                >
+
+                                <div class="textbox">
+                                    <h4>Influux</h4>
+                                    <h5>WORDPRESS WEB DESIGN</h5>
+                                    <p>
+                                        Did the translating of designs 
+                                        into a wordpress web application
+                                    </p>
+                                    <div class="button">
+                                        <a 
+                                            href="http://influuxstudios.com/" 
+                                            target="_blank"
+                                        >
+                                            VIEW
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 gallery-grid gallery1">
+                            <a 
+                                class="swipebox"
+                                href="images/p2-image.png" 
+                            >
+                                <img 
+                                    alt="/"
+                                    class="img-responsive" 
+                                    src="images/p2.jpg" 
+                                >
+                                
+                                <div class="textbox">
+                                    <h4>
+                                        Jobfair Mobile and 
+                                        <br/>
+                                        QR Code App
+                                    </h4>
+                                    <h5>MOBILE APP DEVELOPMENT</h5>
+                                    <p>
+                                        Did the entire mobile app 
+                                        (both frontend and backend), 
+                                        and had experienced 
+                                        leading a small team
+                                    </p>
+
+                                    <div class="button">
+                                        <a 
+                                            class="swipebox"
+                                            href="images/p2-image.png" 
+                                        >
+                                            VIEW
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 gallery-grid gallery1">
+                            <a 
+                                href="https://sterlingtech.ph/" 
+                                target="_blank"
+                            >
+                                <img 
+                                    alt="/"
+                                    class="img-responsive" 
+                                    src="images/p3.jpg" 
+                                >
+
+                                <div class="textbox">
+                                    <h4>Sterling Tech Website</h4>
+                                    <h5>WEB DESIGN</h5>
+                                    <p>
+                                        Implemented the designs 
+                                        to a company website
+                                    </p>
+
+                                    <div class="button">
+                                        <a 
+                                            href="https://sterlingtech.ph/" 
+                                            target="_blank"
+                                        >
+                                            VIEW
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 gallery-grid gallery1">
+                            <a 
+                                href="https://www.moni.co/" 
+                                target="_blank"
+                            >
+                                <img 
+                                    alt="/"
+                                    class="img-responsive" 
+                                    src="images/p4.jpg" 
+                                >
+
+                                <div class="textbox">
+                                    <h4>Monico</h4>
+                                    <h5>MOBILE AND WEB APP <br/>DEVELOPMENT</h5>
+                                    <p>
+                                        Developed mainly the blockchain's 
+                                        mobile app, did some 
+                                        contributions in the web app, 
+                                        and made some 
+                                        modifications in the API.
+                                    </p>
+                                    
+                                    <div class="button">
+                                        <a 
+                                            href="https://www.moni.co/" 
+                                            target="_blank"
+                                        >
+                                            VIEW
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 gallery-grid gallery1">
+                            <a 
+                                href="https://www.jobayan.com/" 
+                                target="_blank"
+                            >
+                                <img 
+                                    alt="/"
+                                    class="img-responsive" 
+                                    src="images/p5.jpg" 
+                                >
+
+                                <div class="textbox">
+                                    <h4>Jobayan</h4>
+                                    <h5>WEB DEVELOPMENT</h5>
+                                    <p>
+                                        Did some UI and backend 
+                                        hotfixes in the web app, and 
+                                        some jobfair-related features.
+                                    </p>
+
+                                    <div class="button">
+                                        <a 
+                                            href="https://www.jobayan.com/" 
+                                            target="_blank"
+                                        >
+                                            VIEW
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 gallery-grid gallery1">
+                            <a 
+                                href="images/p6.jpg" 
+                                class="swipebox"
+                            >
+                                <img 
+                                    alt="/"
+                                    class="img-responsive" 
+                                    src="images/p6.jpg" 
+                                >
+
+                                <div class="textbox">
+                                    <h4>The Shop</h4>
+                                    <h5>E-COMMERCE WEBSITE</h5>
+                                    <p>
+                                        Did some UI enhancements and 
+                                        fixed minor bugs
+                                    </p>
+
+                                    <div class="button">
+                                        <a 
+                                            class="swipebox"
+                                            href="images/p6.jpg" 
+                                        >
+                                            VIEW
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 gallery-grid gallery1">
+                            <a 
+                                href="images/p7-image.png" 
+                                class="swipebox"
+                            >
+                                <img 
+                                    alt="/"
+                                    class="img-responsive" 
+                                    src="images/p7.jpg" 
+                                >
+
+                                <div class="textbox">
+                                    <h4>Emotion Chatbot</h4>
+                                    <h5>WEB AND MOBILE APP</h5>
+                                    <p>
+                                        Had experienced leading a 
+                                        two-man team, and did both 
+                                        frontend and backend of some 
+                                        parts of the web app and 
+                                        did all of the patient's 
+                                        mobile app.
+                                    </p>
+
+                                    <div class="button">
+                                        <a 
+                                            class="swipebox"
+                                            href="images/p7-image.png" 
+                                        >
+                                            VIEW
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 gallery-grid gallery1">
+                            <a 
+                                href="images/p8-image.png" 
+                                class="swipebox"
+                            >
+                                <img 
+                                    alt="/"
+                                    class="img-responsive" 
+                                    src="images/p8.jpg" 
+                                >
+
+                                <div class="textbox">
+                                    <h4>Police Reporting System</h4>
+                                    <h5>WEB AND MOBILE APP</h5>
+                                    <p>
+                                        Did the entire web and mobile 
+                                        app, from UI wireframes to 
+                                        implementation.
+                                    </p>
+
+                                    <div class="button">
+                                        <a 
+                                            class="swipebox"
+                                            href="images/p8-image.png" 
+                                        >
+                                            VIEW
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 gallery-grid gallery1">
+                            <a 
+                                href="images/p9.jpg" 
+                                class="swipebox"
+                            >
+                                <img 
+                                    alt="/"
+                                    class="img-responsive" 
+                                    src="images/p9.jpg" 
+                                >
+
+                                <div class="textbox">
+                                    <h4>Web-Controlled <br/>Arduino LED Lights</h4>
+                                    <h5>WEB APP with ARDUINO</h5>
+                                    <p>
+                                        Did the electronics part of 
+                                        the project
+                                    </p>
+
+                                    <div class="button">
+                                        <a 
+                                            class="swipebox"
+                                            href="images/p9.jpg" 
+                                        >
+                                            VIEW
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="clearfix"> </div>
+                    </div>
+
+                    <link rel="stylesheet" href="css/swipebox.css">
+
+                    <script src="js/jquery.swipebox.min.js"></script> 
+                    <script type="text/javascript">
+                        jQuery(function($) {
+                            $(".swipebox").swipebox();
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+        <!--END: PORTFOLIO-->
+
+        <!--START: PROCESS-->
+        <!-- <div class="process text-center">
+            <div class="container">
+                <h3>PROCESS</h3>
+                <div class="strip text-center"><img src="images/pro.png" alt=" "/></div>
+                <div class="process-girds">
+                    <div class="col-md-2 process-pad">
+                        <div class="process-gird">
+                            <div class="process-imagea"></div>
+                            <p>IDEA</p>
+                            <img src="images/6.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-md-2 process-pad">
+                        <div class="process-gird">
+                            <div class="process-imageb"></div>
+                            <p>CONCEPT</p>
+                            <img class="pro-imga" src="images/6.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-md-2 process-pad">
+                        <div class="process-gird">
+                            <div class="process-imagec"></div>
+                            <p>DESIGN</p>
+                            <img class="pro-img" src="images/6.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-md-2 process-pad">
+                        <div class="process-gird">
+                            <div class="process-imaged"></div>
+                            <p>DEVELOP</p>
+                            <img class="pro-imgb" src="images/6.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-md-2 process-pad">
+                        <div class="process-gird">
+                            <div class="process-imagee"></div>
+                            <p>TEST</p>
+                            <img src="images/6.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-md-2 process-pad">
+                        <div class="process-gird">
+                            <div class="process-imagef"></div>
+                            <p>LAUNCH</p>
+                            
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div> -->
+        <!--END: PROCESS-->
+        <!-- <div class="process-back"></div> -->
+
+        <!-- <div class="contact-back"></div> -->
+        <!--START: CONTACT-->
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="contact-info text-center">
+                    <h3>CONTACT</h3>
+                    <div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+                </div>
+
+                <div class="contact-grids">
+                    <div class="col-md-5 contact-left">
+                        <h3>Say Hi to Me</h3>
+                        <div class="stripb"></div>
+                        <ul>
+                            <li>Bagong Silang, Caloocan City</li>
+                            <li>Metro Manila, Philippines 1428</li>
+                            <li>+63 965 4481891</li>
+                            <li>
+                                <a href="mailto:estavillocj43@gmail.com">
+                                    estavillocj43@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    https://cjestavillo.github.io/
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-7 contact-right">
+                        <h3>Drop Me A Line</h3>
+
+                        <div class="stripb"></div>
+                        <p>Email me at:</p>
+                        <ul>
+                            <li>
+                                <a href="mailto:estavillocj43@gmail.com">
+                                    estavillocj43@gmail.com
+                                </a>
+                            </li>
+                        </ul>
+
+                        <br/>
+                        <p>or</p>
+                        <br/>
+
+                        <p>Contact me at:</p>
+                        <ul>
+                            <li>
+                                <span>
+                                    <strong>Mobile:</strong> +63 965 4481891
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <strong>Skype:</strong> estavillocj43
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <strong>WhatsApp:</strong> +63 965 4481891
+                                </span>
+                            </li>
+                        </ul>
+                        <!-- <form>
+                            <input 
+                                type="text" 
+                                value="Name" 
+                                onfocus="this.value = '';" 
+                                onblur="if (this.value == '') {this.value = 'Name';}" 
+                                required=""
+                            >
+                            <input 
+                                type="text" 
+                                value="E-mail" 
+                                onfocus="this.value = '';" 
+                                onblur="if (this.value == '') {this.value = 'E-mail';}" 
+                                required=""
+                            >
+                            <textarea 
+                                type="text" 
+                                onfocus="this.value = '';" 
+                                onblur="if (this.value == '') {this.value = 'Message';}" 
+                                required=""
+                            >Message</textarea>
+                            <input type="submit" value="SEND">
+                        </form> -->
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!--END: CONTACT-->
+
+        <div class="footer-top"></div>
+        <!--START: RESUME-->
+        <div class="resume text-center">
+            <div class="container">
+                <div class="strip text-center">
+                    <a href="#"><img src="images/down.png" alt=" "/></a>
+                </div>
+                
+                <div class="down">
+                    <a 
+                        href="./files/Ciara-Jhenica-Estavillo-Resume.pdf"
+                        target="_blank"
+                    >
+                        Download My Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--END: RESUME-->
+
+        <!--START: FOOTER-->
+        <div class="footer">
+            <div class="container">
+                <p>
+                    Copyright &copy; 2019.&nbsp;
+                    Template by
+                    <a href="http://w3layouts.com/"> W3layouts.</a>
+                    Modified by 
+                    <a href="https://cjestavillo.github.io/"> CJ Estavillo.</a>
+                </p>
+            </div>
+        </div>
+        <!--END: FOOTER-->
+
+        <!-- START: Scrolling Icon -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+                /*
+                    var defaults = {
+                    containerID: 'toTop', // fading element id
+                    containerHoverID: 'toTopHover', // fading element hover id
+                    scrollSpeed: 1200,
+                    easingType: 'linear' 
+                    };
+                */
+                                    
+                $().UItoTop({ easingType: 'easeOutQuart' });
+                                    
+            });
+        </script>
+        <!-- END: Scrolling Icon -->
+    </body>
+</html>
