@@ -223,11 +223,27 @@ a.boxclose {
     line-height: 1.8em;
     margin: 45px 0 0 0;
 }
-.about ul{
+.about ul.help {
+    display: inline-block;
+    list-style: none;
+}
+.about ul.help li {
+    margin-top: -30px;
+    /* white-space: nowrap; */
+}
+.about ul.help li:before {
+    content: '✓';
+}
+.about ul.help li p {
+    display: inline-block;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.about ul.links {
     margin: 45px 0 0 0;
     padding: 0;
 }
-.about ul li {
+.about ul.links li {
     display: inline-block;
     list-style-type: none;
     margin-right: 25px;
